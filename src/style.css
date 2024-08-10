@@ -54,3 +54,17 @@ body {
 .odd span:nth-child(even) {
     background-color: var(--secondary-table);
 }
+
+.square {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.square i{
+    width: 80%;
+    height: 80%;
+    margin-left: 10px;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Chess_plt45.svg/1024px-Chess_plt45.svg.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
