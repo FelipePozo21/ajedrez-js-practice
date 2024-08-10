@@ -1,0 +1,19 @@
+{
+  "name": "ajedrez",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./index.html --watch"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "description": "",
+  "devDependencies": {
+    "standard": "^17.1.0"
+  },
+  "eslintConfig": {
+    "extends": "./node_modules/standard/eslintrc.json"
+  }
+}
